@@ -1,5 +1,4 @@
-streamlist
+streamlit
 numpy
+pandas
 scikit-learn
-
--e .

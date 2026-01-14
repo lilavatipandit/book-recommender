@@ -1,4 +1,4 @@
- # Python
+# Python
 __pycache__/
 *.pyc
 
@@ -8,16 +8,8 @@ venv/
 
 # Jupyter
 .ipynb_checkpoints/
-*.ipynb
 
-# Data files
-*.csv
-
-# ML models
-*.pkl
-artifacts/
-
-# Streamlit
+# Streamlit config
 .streamlit/
 
 # VS Code

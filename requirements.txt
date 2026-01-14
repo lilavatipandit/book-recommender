@@ -1,0 +1,5 @@
+streamlist
+numpy
+scikit-learn
+
+-e .

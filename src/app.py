@@ -111,11 +111,15 @@ st.set_page_config(page_title="Book Recommender", layout="wide")
 st.header("📚 Book Recommender System using Machine Learning")
 
 # Load model files
-model = pickle.load(open("../artifacts/model.pkl", "rb"))
+# model =  pickle.load(open("../artifacts/model.pkl", "rb"))
+# books_name = pickle.load(open("../artifacts/books_name.pkl", "rb"))
+# final_rating = pickle.load(open("../artifacts/final_rating.pkl", "rb"))
+# book_pivot = pickle.load(open("../artifacts/book_pivot.pkl", "rb"))
+model = pickle.load(open("artifacts/model.pkl", "rb"))
+books_name = pickle.load(open("artifacts/books_name.pkl", "rb"))
+final_rating = pickle.load(open("artifacts/final_rating.pkl", "rb"))
+book_pivot = pickle.load(open("artifacts/book_pivot.pkl", "rb"))
 
-books_name = pickle.load(open("../artifacts/books_name.pkl", "rb"))
-final_rating = pickle.load(open("../artifacts/final_rating.pkl", "rb"))
-book_pivot = pickle.load(open("../artifacts/book_pivot.pkl", "rb"))
 
 # Convert books_name to list
 if hasattr(books_name, "values"):

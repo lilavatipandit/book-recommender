@@ -31,40 +31,36 @@ It calculates similarity between books using user ratings and suggests the most 
 ---
 
 ## 📂 Project Structure
+
 ## 📂 Project Structure
 
 book-recommender/
-├── src/
-│ └── app.py # Streamlit application
-├── artifacts/
-│ ├── model.pkl # Trained KNN model
-│ ├── books_name.pkl # Book names
-│ ├── final_rating.pkl # Ratings data
-│ └── book_pivot.pkl # Pivot table
-├── requirements.txt
-├── setup.sh
-├── .gitignore
-└── README.md
 
-⚠️ VERY IMPORTANT RULES
+- src/
+  - app.py  
+    Streamlit application file
 
-book-recommender/
-├── src/
-│ └── app.py # Streamlit application
-├── artifacts/
-│ ├── model.pkl # Trained KNN model
-│ ├── books_name.pkl # Book names
-│ ├── final_rating.pkl # Ratings data
-│ └── book_pivot.pkl # Pivot table
-├── requirements.txt
-├── setup.sh
-├── .gitignore
-└── README.md
+- artifacts/
+  - model.pkl  
+    Trained KNN model
+  - books_name.pkl  
+    Book names data
+  - final_rating.pkl  
+    Ratings dataset
+  - book_pivot.pkl  
+    Pivot table used for recommendations
 
+- requirements.txt  
+  Python dependencies
 
+- setup.sh  
+  Streamlit Cloud configuration
 
+- .gitignore  
+  Ignored files and folders
 
-
+- README.md  
+  Project documentation
 
 
 
@@ -101,6 +97,7 @@ Main file: src/app.py
 
 Lilavati Pandit
 GitHub: https://github.com/lilavatipandit
+
 
 
 

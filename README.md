@@ -33,20 +33,21 @@ It calculates similarity between books using user ratings and suggests the most 
 ## 📂 Project Structure
 
 book-recommender/
-│
 ├── src/
 │ └── app.py # Streamlit application
-│
 ├── artifacts/
 │ ├── model.pkl # Trained KNN model
 │ ├── books_name.pkl # Book names
 │ ├── final_rating.pkl # Ratings data
 │ └── book_pivot.pkl # Pivot table
-│
 ├── requirements.txt
 ├── setup.sh
 ├── .gitignore
-├── README.md
+└── README.md
+
+
+
+
 
 
 
@@ -84,6 +85,7 @@ Main file: src/app.py
 
 Lilavati Pandit
 GitHub: https://github.com/lilavatipandit
+
 
 
 

@@ -44,6 +44,8 @@ book-recommender/
 ├── .gitignore
 ├── README.md
 
+
+
 ⚙️ How It Works
 
 User selects a book from the dropdown.
@@ -124,3 +126,4 @@ Lilavati Pandit
 ⭐ If you like this project
 
 Give it a star ⭐ on GitHub — it motivates me to build more!
+

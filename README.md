@@ -30,7 +30,7 @@ It calculates similarity between books using user ratings and suggests the most 
 
 ---
 
-## 📂 Project Structure
+
 
 ## 📂 Project Structure
 
@@ -97,6 +97,7 @@ Main file: src/app.py
 
 Lilavati Pandit
 GitHub: https://github.com/lilavatipandit
+
 
 
 
